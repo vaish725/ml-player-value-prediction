@@ -1,0 +1,771 @@
+{
+    "dataset_info": {
+        "number_of_rows": 1301,
+        "number_of_columns": 34,
+        "memory_usage": "0.77 MB"
+    },
+    "columns": {
+        "p_id2": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 604,
+            "top_values": {
+                "bendavies": 24,
+                "dannyrose": 18,
+                "adamsmith": 12,
+                "dannyward": 12,
+                "jamescollins": 8,
+                "callumwilson": 8,
+                "dannywilliams": 8,
+                "reecejames": 8,
+                "aaronramsey": 6,
+                "jonnyevans": 5
+            },
+            "sample_values": [
+                "odionighalo",
+                "adamsmith",
+                "hugolloris",
+                "mathieudebuchy",
+                "maxaarons"
+            ]
+        },
+        "start_year": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 5,
+            "statistics": {
+                "mean": 2018.0999231360493,
+                "median": 2018.0,
+                "std": 1.3848104542093074,
+                "min": 2016.0,
+                "max": 2020.0
+            },
+            "sample_values": [
+                2017,
+                2020,
+                2018,
+                2020,
+                2017
+            ]
+        },
+        "season_days_injured": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 265,
+            "statistics": {
+                "mean": 79.05073020753267,
+                "median": 49.0,
+                "std": 84.57816890448515,
+                "min": 0.0,
+                "max": 702.0
+            },
+            "sample_values": [
+                115,
+                155,
+                10,
+                22,
+                269
+            ]
+        },
+        "total_days_injured": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 349,
+            "statistics": {
+                "mean": 260.7109915449654,
+                "median": 210.0,
+                "std": 202.74189603992124,
+                "min": 3.0,
+                "max": 2398.0
+            },
+            "sample_values": [
+                336,
+                370,
+                210,
+                492,
+                380
+            ]
+        },
+        "season_minutes_played": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 950,
+            "statistics": {
+                "mean": 1483.1560338201384,
+                "median": 1440.0,
+                "std": 1014.0139201461209,
+                "min": 0.0,
+                "max": 3610.0
+            },
+            "sample_values": [
+                722.0,
+                1110.0,
+                1864.0,
+                0.0,
+                1230.0
+            ]
+        },
+        "season_games_played": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 39,
+            "statistics": {
+                "mean": 19.509607993850885,
+                "median": 21.0,
+                "std": 11.09972729741511,
+                "min": 0.0,
+                "max": 38.0
+            },
+            "sample_values": [
+                16,
+                15,
+                25,
+                32,
+                27
+            ]
+        },
+        "season_matches_in_squad": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 39,
+            "statistics": {
+                "mean": 25.089930822444273,
+                "median": 28.0,
+                "std": 10.157698031685284,
+                "min": 1.0,
+                "max": 54.0
+            },
+            "sample_values": [
+                18,
+                13,
+                6,
+                31,
+                31
+            ]
+        },
+        "total_minutes_played": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 554,
+            "statistics": {
+                "mean": 5533.593389700231,
+                "median": 5023.0,
+                "std": 4095.4210815629344,
+                "min": 0.0,
+                "max": 16768.0
+            },
+            "sample_values": [
+                550.0,
+                6549.0,
+                996.0,
+                6806.0,
+                8787.0
+            ]
+        },
+        "total_games_played": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 161,
+            "statistics": {
+                "mean": 71.63873943120676,
+                "median": 69.0,
+                "std": 46.85426019159892,
+                "min": 0.0,
+                "max": 179.0
+            },
+            "sample_values": [
+                90,
+                36,
+                70,
+                41,
+                81
+            ]
+        },
+        "dob": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 588,
+            "top_values": {
+                "1993-06-22": 9,
+                "1995-08-11": 8,
+                "1993-04-24": 8,
+                "1981-05-27": 8,
+                "1993-11-07": 8,
+                "1992-02-27": 7,
+                "1989-07-05": 7,
+                "1995-09-18": 7,
+                "1989-09-26": 7,
+                "1990-07-02": 6
+            },
+            "sample_values": [
+                "2001-10-01",
+                "1993-03-05",
+                "1989-06-25",
+                "1987-09-09",
+                "1990-05-28"
+            ]
+        },
+        "height_cm": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 165,
+            "statistics": {
+                "mean": 182.51620548296182,
+                "median": 183.0,
+                "std": 6.821092366270757,
+                "min": 163.0,
+                "max": 203.0
+            },
+            "sample_values": [
+                183.66666666666663,
+                180.0,
+                172.16666666666666,
+                188.16666666666663,
+                181.0
+            ]
+        },
+        "weight_kg": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 185,
+            "statistics": {
+                "mean": 76.83393543428132,
+                "median": 76.0,
+                "std": 7.362975367412769,
+                "min": 58.0,
+                "max": 99.0
+            },
+            "sample_values": [
+                75.0,
+                96.0,
+                97.66666666666669,
+                72.0,
+                82.16666666666667
+            ]
+        },
+        "nationality": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 61,
+            "top_values": {
+                "England": 551,
+                "France": 87,
+                "Republic of Ireland": 55,
+                "Scotland": 52,
+                "Netherlands": 51,
+                "Belgium": 50,
+                "Wales": 48,
+                "Germany": 32,
+                "Argentina": 31,
+                "Nigeria": 21
+            },
+            "sample_values": [
+                "Argentina",
+                "Egypt",
+                "Netherlands",
+                "England",
+                "New Zealand"
+            ]
+        },
+        "work_rate": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 8,
+            "top_values": {
+                "Medium/Medium": 434,
+                "High/Medium": 337,
+                "Medium/High": 209,
+                "High/High": 206,
+                "Low/Medium": 29,
+                "Low/High": 29,
+                "High/Low": 29,
+                "Medium/Low": 28
+            },
+            "sample_values": [
+                "Low/High",
+                "Medium/High",
+                "Medium/High",
+                "Medium/Medium",
+                "High/Medium"
+            ]
+        },
+        "pace": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 95,
+                "percentage": "7.30%"
+            },
+            "unique_values": 283,
+            "statistics": {
+                "mean": 70.31817302377004,
+                "median": 71.0,
+                "std": 10.899224651580974,
+                "min": 28.33333333333333,
+                "max": 93.0
+            },
+            "sample_values": [
+                81.33333333333333,
+                60.16666666666666,
+                77.83333333333333,
+                75.0,
+                66.0
+            ]
+        },
+        "physic": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 95,
+                "percentage": "7.30%"
+            },
+            "unique_values": 245,
+            "statistics": {
+                "mean": 70.83721669430625,
+                "median": 72.33333333333333,
+                "std": 8.172575212168779,
+                "min": 40.75,
+                "max": 88.16666666666667
+            },
+            "sample_values": [
+                62.0,
+                73.16666666666667,
+                67.16666666666667,
+                74.5,
+                65.66666666666667
+            ]
+        },
+        "fifa_rating": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 204,
+            "statistics": {
+                "mean": 74.51368178324365,
+                "median": 75.16666666666667,
+                "std": 5.784240475506639,
+                "min": 53.0,
+                "max": 89.5
+            },
+            "sample_values": [
+                68.0,
+                68.16666666666667,
+                73.5,
+                66.5,
+                62.25
+            ]
+        },
+        "position": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 2,
+                "percentage": "0.15%"
+            },
+            "unique_values": 4,
+            "top_values": {
+                "Defender": 492,
+                "Midfielder": 457,
+                "Forward": 253,
+                "Goalkeeper": 97
+            },
+            "sample_values": [
+                "Midfielder",
+                "Midfielder",
+                "Defender",
+                "Forward",
+                "Midfielder"
+            ]
+        },
+        "age": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 23,
+            "statistics": {
+                "mean": 26.63797079169869,
+                "median": 27.0,
+                "std": 3.9372466211896473,
+                "min": 17.0,
+                "max": 39.0
+            },
+            "sample_values": [
+                18,
+                29,
+                17,
+                27,
+                24
+            ]
+        },
+        "cumulative_minutes_played": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 604,
+                "percentage": "46.43%"
+            },
+            "unique_values": 639,
+            "statistics": {
+                "mean": 4156.717360114778,
+                "median": 2755.0,
+                "std": 5075.930083976109,
+                "min": 0.0,
+                "max": 39102.0
+            },
+            "sample_values": [
+                4925.0,
+                1809.0,
+                7280.0,
+                1028.0,
+                5846.0
+            ]
+        },
+        "cumulative_games_played": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 604,
+                "percentage": "46.43%"
+            },
+            "unique_values": 150,
+            "statistics": {
+                "mean": 53.27977044476327,
+                "median": 35.0,
+                "std": 63.11151921336146,
+                "min": 0.0,
+                "max": 508.0
+            },
+            "sample_values": [
+                23.0,
+                63.0,
+                101.0,
+                390.0,
+                46.0
+            ]
+        },
+        "minutes_per_game_prev_seasons": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 616,
+                "percentage": "47.35%"
+            },
+            "unique_values": 611,
+            "statistics": {
+                "mean": 74.54194719248993,
+                "median": 80.08064516129032,
+                "std": 17.856053589669326,
+                "min": 7.0,
+                "max": 95.0
+            },
+            "sample_values": [
+                81.25925925925925,
+                72.65517241379311,
+                92.01818181818182,
+                80.19047619047619,
+                43.61538461538461
+            ]
+        },
+        "avg_days_injured_prev_seasons": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 604,
+                "percentage": "46.43%"
+            },
+            "unique_values": 359,
+            "statistics": {
+                "mean": 79.50198705429601,
+                "median": 60.5,
+                "std": 71.05763961243166,
+                "min": 2.0,
+                "max": 702.0
+            },
+            "sample_values": [
+                74.5,
+                9.0,
+                10.5,
+                165.0,
+                27.0
+            ]
+        },
+        "avg_games_per_season_prev_seasons": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 604,
+                "percentage": "46.43%"
+            },
+            "unique_values": 157,
+            "statistics": {
+                "mean": 21.952037911023055,
+                "median": 23.0,
+                "std": 9.408793166254554,
+                "min": 0.0,
+                "max": 38.0
+            },
+            "sample_values": [
+                17.0,
+                20.0,
+                24.4,
+                16.0,
+                13.0
+            ]
+        },
+        "bmi": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 551,
+            "statistics": {
+                "mean": 23.0393099814854,
+                "median": 23.07482993197279,
+                "std": 1.470254728257158,
+                "min": 18.792450804048432,
+                "max": 28.5254746993544
+            },
+            "sample_values": [
+                24.646239882700108,
+                20.487076448663945,
+                21.74171791311248,
+                26.148977951425987,
+                22.91344446353898
+            ]
+        },
+        "work_rate_numeric": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 4,
+            "statistics": {
+                "mean": 3.346272098385857,
+                "median": 3.5,
+                "std": 0.39297134332511735,
+                "min": 2.5,
+                "max": 4.0
+            },
+            "sample_values": [
+                2.5,
+                3.0,
+                3.5,
+                3.0,
+                3.5
+            ]
+        },
+        "position_numeric": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 2,
+                "percentage": "0.15%"
+            },
+            "unique_values": 4,
+            "statistics": {
+                "mean": 1.823710546574288,
+                "median": 2.0,
+                "std": 0.9994720159189907,
+                "min": 0.0,
+                "max": 3.0
+            },
+            "sample_values": [
+                1.0,
+                3.0,
+                1.0,
+                2.0,
+                3.0
+            ]
+        },
+        "significant_injury_prev_season": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 604,
+                "percentage": "46.43%"
+            },
+            "unique_values": 2,
+            "statistics": {
+                "mean": 0.22525107604017217,
+                "median": 0.0,
+                "std": 0.41804756415178046,
+                "min": 0.0,
+                "max": 1.0
+            },
+            "sample_values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "cumulative_days_injured": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 604,
+                "percentage": "46.43%"
+            },
+            "unique_values": 526,
+            "statistics": {
+                "mean": 786.351506456241,
+                "median": 427.0,
+                "std": 1064.3231747130212,
+                "min": 7.0,
+                "max": 7590.0
+            },
+            "sample_values": [
+                280.0,
+                26.0,
+                455.0,
+                660.0,
+                208.0
+            ]
+        },
+        "season_days_injured_prev_season": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 604,
+                "percentage": "46.43%"
+            },
+            "unique_values": 206,
+            "statistics": {
+                "mean": 81.27977044476327,
+                "median": 50.0,
+                "std": 84.35361431629998,
+                "min": 0.0,
+                "max": 702.0
+            },
+            "sample_values": [
+                49.0,
+                180.0,
+                51.0,
+                106.0,
+                31.0
+            ]
+        },
+        "injury_rate": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 580,
+            "statistics": {
+                "mean": 11.651870157329427,
+                "median": 3.305084745762712,
+                "std": 42.43359897113657,
+                "min": 0.0428571428571428,
+                "max": 826.0
+            },
+            "sample_values": [
+                121.66666666666669,
+                50.0,
+                8.652173913043478,
+                4.313432835820896,
+                1.0774647887323945
+            ]
+        },
+        "minutes_per_game": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 1026,
+            "statistics": {
+                "mean": 62.19708906485516,
+                "median": 70.29629629629629,
+                "std": 26.336681827004956,
+                "min": 0.0,
+                "max": 92.56410256410255
+            },
+            "sample_values": [
+                78.35714285714286,
+                61.523809523809526,
+                92.43243243243244,
+                91.2,
+                87.63636363636364
+            ]
+        },
+        "experience_years": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 23,
+            "statistics": {
+                "mean": 26.63797079169869,
+                "median": 27.0,
+                "std": 3.9372466211896473,
+                "min": 17.0,
+                "max": 39.0
+            },
+            "sample_values": [
+                31,
+                30,
+                23,
+                27,
+                33
+            ]
+        },
+        "bmi_class": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 2,
+            "top_values": {
+                "Normal": 1200,
+                "Overweight": 101
+            },
+            "sample_values": [
+                "Overweight",
+                "Overweight",
+                "Overweight",
+                "Normal",
+                "Normal"
+            ]
+        }
+    }
+}
