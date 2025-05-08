@@ -1,0 +1,487 @@
+{
+    "dataset_info": {
+        "number_of_rows": 31046,
+        "number_of_columns": 20,
+        "memory_usage": "24.09 MB"
+    },
+    "columns": {
+        "player_id": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 31046,
+            "statistics": {
+                "mean": 329403.0362687625,
+                "median": 268722.5,
+                "std": 268551.9570840183,
+                "min": 10.0,
+                "max": 1310513.0
+            },
+            "sample_values": [
+                398886,
+                12807,
+                408471,
+                69643,
+                197478
+            ]
+        },
+        "first_name": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 2019,
+                "percentage": "6.50%"
+            },
+            "unique_values": 6833,
+            "top_values": {
+                "David": 210,
+                "Ivan": 139,
+                "Marco": 128,
+                "Georgios": 124,
+                "Daniel": 122,
+                "Aleksandr": 121,
+                "Lucas": 114,
+                "Luca": 114,
+                "Thomas": 109,
+                "Michael": 105
+            },
+            "sample_values": [
+                "Antonis",
+                "Gr\u00e9gory",
+                "Dani",
+                "C\u00e9dric",
+                "Adam"
+            ]
+        },
+        "last_name": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 22848,
+            "top_values": {
+                "Garc\u00eda": 66,
+                "Rodr\u00edguez": 55,
+                "L\u00f3pez": 53,
+                "Silva": 50,
+                "Gonz\u00e1lez": 49,
+                "Fern\u00e1ndez": 46,
+                "Smith": 42,
+                "Mart\u00ednez": 41,
+                "Traor\u00e9": 39,
+                "Santos": 34
+            },
+            "sample_values": [
+                "Sidnei",
+                "Chernyshuk",
+                "Kalogerakis",
+                "Almeida",
+                "Dia"
+            ]
+        },
+        "name": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 30388,
+            "top_values": {
+                "Paulinho": 13,
+                "Jo\u00e3o Pedro": 9,
+                "Bruninho": 7,
+                "Guilherme": 7,
+                "Alex": 7,
+                "Serginho": 7,
+                "Danilo": 7,
+                "Vin\u00edcius": 6,
+                "Fabinho": 5,
+                "J\u00falio C\u00e9sar": 5
+            },
+            "sample_values": [
+                "Antonio Meola",
+                "Shikabala",
+                "Dario Vujicevic",
+                "Frans Putros",
+                "Erick Ferigra"
+            ]
+        },
+        "last_season": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 13,
+            "statistics": {
+                "mean": 2019.335598788894,
+                "median": 2020.0,
+                "std": 3.9738896411001297,
+                "min": 2012.0,
+                "max": 2024.0
+            },
+            "sample_values": [
+                2015,
+                2015,
+                2013,
+                2015,
+                2019
+            ]
+        },
+        "current_club_id": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 437,
+            "statistics": {
+                "mean": 4733.807962378406,
+                "median": 1053.0,
+                "std": 11461.994675588267,
+                "min": 3.0,
+                "max": 110302.0
+            },
+            "sample_values": [
+                3840,
+                2715,
+                130,
+                7775,
+                985
+            ]
+        },
+        "country_of_birth": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 2158,
+                "percentage": "6.95%"
+            },
+            "unique_values": 185,
+            "top_values": {
+                "France": 2250,
+                "Spain": 1946,
+                "Italy": 1835,
+                "England": 1734,
+                "Brazil": 1602,
+                "Germany": 1582,
+                "Netherlands": 1471,
+                "Turkey": 1145,
+                "Portugal": 1044,
+                "Greece": 984
+            },
+            "sample_values": [
+                "Colombia",
+                "England",
+                "Israel",
+                "England",
+                "Germany"
+            ]
+        },
+        "country_of_citizenship": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 362,
+                "percentage": "1.17%"
+            },
+            "unique_values": 183,
+            "top_values": {
+                "Spain": 1903,
+                "Italy": 1866,
+                "France": 1657,
+                "Brazil": 1606,
+                "England": 1467,
+                "Russia": 1448,
+                "Netherlands": 1352,
+                "Turkey": 1346,
+                "Germany": 1297,
+                "Ukraine": 1280
+            },
+            "sample_values": [
+                "Italy",
+                "Denmark",
+                "T\u00fcrkiye",
+                "Brazil",
+                "Guinea"
+            ]
+        },
+        "date_of_birth": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 9103,
+            "top_values": {
+                "1996-01-19": 20,
+                "1994-01-01": 19,
+                "1995-01-04": 17,
+                "2001-01-01": 17,
+                "1995-01-01": 16,
+                "1996-01-01": 16,
+                "1994-01-03": 15,
+                "1997-01-01": 15,
+                "1997-01-23": 14,
+                "2000-01-07": 14
+            },
+            "sample_values": [
+                "1995-01-04",
+                "1993-08-16",
+                "1980-03-10",
+                "1995-01-12",
+                "1987-04-27"
+            ]
+        },
+        "sub_position": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 100,
+                "percentage": "0.32%"
+            },
+            "unique_values": 13,
+            "top_values": {
+                "Centre-Back": 5482,
+                "Centre-Forward": 4393,
+                "Central Midfield": 3626,
+                "Goalkeeper": 3458,
+                "Defensive Midfield": 2561,
+                "Right-Back": 2268,
+                "Left-Back": 2184,
+                "Attacking Midfield": 2122,
+                "Left Winger": 2023,
+                "Right Winger": 1917
+            },
+            "sample_values": [
+                "Central Midfield",
+                "Goalkeeper",
+                "Right-Back",
+                "Centre-Forward",
+                "Defensive Midfield"
+            ]
+        },
+        "position": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 5,
+            "top_values": {
+                "Defender": 9934,
+                "Midfield": 8991,
+                "Attack": 8563,
+                "Goalkeeper": 3458,
+                "Missing": 100
+            },
+            "sample_values": [
+                "Goalkeeper",
+                "Midfield",
+                "Defender",
+                "Defender",
+                "Midfield"
+            ]
+        },
+        "foot": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 3,
+            "top_values": {
+                "right": 22400,
+                "left": 7289,
+                "both": 1357
+            },
+            "sample_values": [
+                "left",
+                "right",
+                "left",
+                "left",
+                "both"
+            ]
+        },
+        "height_in_cm": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 53,
+            "statistics": {
+                "mean": 182.33289312632868,
+                "median": 183.0,
+                "std": 6.851799686794645,
+                "min": 17.0,
+                "max": 210.0
+            },
+            "sample_values": [
+                190.0,
+                174.0,
+                183.0,
+                189.0,
+                178.0
+            ]
+        },
+        "current_club_name": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 437,
+            "top_values": {
+                "Ross County Football Club": 170,
+                "Kilmarnock Football Club": 166,
+                "Motherwell Football Club": 165,
+                "Genoa Cricket and Football Club": 163,
+                "\u00c7aykur Rizespor Kul\u00fcb\u00fc": 161,
+                "Atalanta Bergamasca Calcio S.p.a.": 157,
+                "Dundee Football Club": 157,
+                "Antalyaspor": 153,
+                "A.G.S Asteras Tripolis": 151,
+                "APO Levadiakos Football Club": 151
+            },
+            "sample_values": [
+                "Manchester United Football Club",
+                "Reial Club Deportiu Espanyol de Barcelona S.A.D.",
+                "Istanbulspor",
+                "Athlitiki Enosi Konstantinoupoleos",
+                "Gaziantepspor (- 2020)"
+            ]
+        },
+        "market_value_in_eur": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 130,
+            "statistics": {
+                "mean": 1641139.9214069445,
+                "median": 250000.0,
+                "std": 6410426.861619892,
+                "min": 10000.0,
+                "max": 200000000.0
+            },
+            "sample_values": [
+                75000.0,
+                2500000.0,
+                700000.0,
+                400000.0,
+                125000.0
+            ]
+        },
+        "highest_market_value_in_eur": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 205,
+            "statistics": {
+                "mean": 3791079.6882045995,
+                "median": 800000.0,
+                "std": 9891719.09161887,
+                "min": 10000.0,
+                "max": 200000000.0
+            },
+            "sample_values": [
+                400000.0,
+                100000.0,
+                50000.0,
+                100000.0,
+                350000.0
+            ]
+        },
+        "age": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 39,
+            "statistics": {
+                "mean": 30.694614443084454,
+                "median": 30.0,
+                "std": 6.562370067516782,
+                "min": 17.0,
+                "max": 55.0
+            },
+            "sample_values": [
+                22,
+                26,
+                32,
+                43,
+                28
+            ]
+        },
+        "age_group": {
+            "data_type": "object",
+            "missing_values": {
+                "count": 34,
+                "percentage": "0.11%"
+            },
+            "unique_values": 5,
+            "top_values": {
+                "Experienced": 7504,
+                "Young": 7445,
+                "Veteran": 7282,
+                "Prime": 6911,
+                "Teen": 1870
+            },
+            "sample_values": [
+                "Young",
+                "Veteran",
+                "Young",
+                "Prime",
+                "Veteran"
+            ]
+        },
+        "value_log": {
+            "data_type": "float64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 130,
+            "statistics": {
+                "mean": 12.642877510177282,
+                "median": 12.429220196836384,
+                "std": 1.5622661567806453,
+                "min": 9.210440366976515,
+                "max": 19.11382792951231
+            },
+            "sample_values": [
+                12.206077645517674,
+                11.736077016252436,
+                15.201805169084134,
+                13.592368256649284,
+                13.592368256649284
+            ]
+        },
+        "position_encoded": {
+            "data_type": "int64",
+            "missing_values": {
+                "count": 0,
+                "percentage": "0.00%"
+            },
+            "unique_values": 5,
+            "statistics": {
+                "mean": 1.4244347097854797,
+                "median": 1.0,
+                "std": 1.180889104223885,
+                "min": 0.0,
+                "max": 4.0
+            },
+            "sample_values": [
+                0,
+                0,
+                2,
+                1,
+                0
+            ]
+        }
+    }
+}
