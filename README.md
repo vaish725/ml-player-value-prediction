@@ -149,7 +149,10 @@ streamlit run app.py
 The application will open in your web browser.
 
 ---
+## Project Report
+You can find the detailed project report describing the methodology, results, and analysis [here](./report/Report Paper on Sports Analytics Predicting Player Value and Injury Risk.pdf).
 
+---
 ## 🧑‍💻 Author
 
 * **Vaishnavi Kamdi**
