@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 # Load trained models for value prediction and injury classification
 value_model = joblib.load("../models/rf_market_value_model.pkl")
-injury_model = joblib.load("../models/rf_injury_risk_model.pkl")
+injury_model = joblib.load("../models/injury_xgb_leakfree_v2.joblib")
 
 # Setup streamlit page with wide layout and icon
 st.set_page_config(page_title="Football Player Insights Dashboard", layout="wide", page_icon="⚽")
