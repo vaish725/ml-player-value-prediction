@@ -80,9 +80,16 @@ New features were created to capture more domain-specific insights:
 ## 📈 Key Results
 
 * **Market Value Prediction:** The Random Forest Regressor demonstrated strong performance with an **R² score of approximately 0.82** and an MAE of ~€621K, after addressing initial data leakage issues. Key predictors were `highest_market_value_in_eur` and `age`.
-* **Injury Risk Prediction:** The Random Forest Classifier and XGBoost Classifier achieved near-perfect **AUC-ROC scores (≈1.00)** on the available dataset, indicating excellent capability in distinguishing injury risk probability. Past injury history (e.g., `avg_days_injured_prev_seasons`) was highly predictive.
-    * *Caveat: While performance is high, further validation on diverse, larger datasets is recommended for the injury model to ensure generalizability and check for potential overfitting.*
-
+* **Injury Risk Prediction:**
+   - **Problem reframed:** Predict next‑season injury (injury_next_season), eliminating look‑ahead bias.
+   - **Deployed model:** XGBoost Classifier (leak‑free pipeline saved as models/injury_xgb_leakfree.joblib).
+   - **Evaluation protocol:** 5‑fold TimeSeriesSplit (gap = 1 season) grouped by player.
+   - **Cross‑validated performance:** AUC = 0.79 ± 0.06 — realistic and generalisable.
+   - **Key anti‑leak measures:**
+      - Dropped same‑season injury columns: season_days_injured, total_days_injured, season_days_injured_prev_season, …
+      - Shifted target forward one season per p_id2.
+      - Encapsulated preprocessing + model in a scikit‑learn Pipeline to prevent train‑test contamination.
+  - **Why the score "dropped" from 1.00 to 0.79?**  The earlier model was unknowingly reading its own answers (data leakage). After lagging the target and using temporal CV, we obtain a trustworthy metric that should hold on unseen seasons.
 ---
 
 ## 🚀 Interactive Dashboard (Streamlit Application)
