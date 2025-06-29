@@ -6,6 +6,11 @@
 **GitHub Repository:** [https://github.com/vaish725/ml-player-value-prediction.git](https://github.com/vaish725/ml-player-value-prediction.git)
 
 ---
+**Injury Risk Estimator Demo**
+![Injury Risk Estimator Demo](assets/Injury-Risk-Estimator-Interface-and-Example-Prediction.png)
+
+**Market Value Estimator Demo**
+![Market Value Estimator Demo](assets/Market-Value-Estimator-Interface-and-Example-Prediction.png)
 
 ## 🌟 Project Overview
 
